@@ -1,15 +1,20 @@
 import { ImgPerfil } from '../Contact/styles';
-import { DivFlex, ImgName, NameP } from './styles';
+import { DivFlex, ImgName } from './styles';
 
 const Header = () => {
   return (
     <>
       <DivFlex>
         <ImgName src="/leticiav.png" />
-        <NameP>Letícia Villas Boas Luckow</NameP>
       </DivFlex>
 
-      <div style={{ display: 'flex', justifyContent: 'center' }}>
+      <div
+        style={{
+          display: 'flex',
+          justifyContent: 'center',
+          background: '#cfabb1',
+        }}
+      >
         <ImgPerfil src="/leticia-banner.png" alt="Foto Pessoal" />
       </div>
     </>

@@ -4,6 +4,8 @@ const ContainerDiv = styled.div`
   align-items: center;
   font-size: 20px;
   font-family: sans-serif;
+  background: #222222;
+  color: white;
 `;
 
 export { ContainerDiv };

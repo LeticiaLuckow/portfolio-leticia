@@ -13,7 +13,7 @@ const SkillCardDiv = styled.div`
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  box-shadow: 2px 2px 2px 1px #767075;
+  box-shadow: -1px 0px 5px 2px #9d8799;
 `;
 
 export { ImgIcons, SkillCardDiv };

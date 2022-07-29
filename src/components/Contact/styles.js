@@ -1,8 +1,7 @@
 import styled from 'styled-components';
 
 const ImgPerfil = styled.img`
-  margin: 50px;
-  width: 80%;
+  width: 100%;
   display: flex;
   justify-content: center;
 `;
