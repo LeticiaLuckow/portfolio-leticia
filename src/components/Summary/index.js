@@ -1,4 +1,6 @@
-import { BgBlack, DivAboutMe, DivInfo } from './styles';
+import { DivAboutMe, DivInfo, DivSocialMedia, SpanSocialMedia } from './styles';
+
+import { Linkedin, Github } from '@styled-icons/bootstrap';
 
 const Summary = () => {
   return (
@@ -7,9 +9,24 @@ const Summary = () => {
       <DivAboutMe>
         <p>
           Meu nome é Letícia, sou formada em Administração pela Universidade
-          Positivo mas atualmente estudo programação para ingressar nesse área
+          Positivo mas atualmente estudo programação para ingressar nessa área
           como desenvolvedora Front-End Junior.
         </p>
+        <DivSocialMedia>
+          <SpanSocialMedia>
+            <a
+              href="https://www.linkedin.com/in/let%C3%ADcia-luckow-355b64168/"
+              target="blank"
+            >
+              <Linkedin width={30} color="#097dea" />
+            </a>
+          </SpanSocialMedia>
+          <SpanSocialMedia>
+            <a href="https://github.com/LeticiaLuckow" target="blank">
+              <Github width={30} color="white" />
+            </a>
+          </SpanSocialMedia>
+        </DivSocialMedia>
       </DivAboutMe>
     </DivInfo>
   );

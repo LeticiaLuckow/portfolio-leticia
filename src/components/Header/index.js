@@ -1,5 +1,4 @@
-import { ImgPerfil } from '../Contact/styles';
-import { DivFlex, ImgName } from './styles';
+import { DivFlex, ImgName, ImgPerfil } from './styles';
 
 const Header = () => {
   return (

@@ -14,18 +14,21 @@ const DivAboutMe = styled.div`
   display: flex;
   border: 1px solid pink;
   margin: 20px;
-  width: 600px;
+  padding: 40px;
   align-items: center;
   text-align: center;
+  flex-direction: column;
 `;
 
-const BgBlack = styled.div`
-  background: #222;
-  -webkit-transform: rotate(-2deg);
-  -ms-transform: rotate(-2deg);
-  transform: rotate(-2deg) translatey(30px);
+const SpanSocialMedia = styled.span`
+  margin-bottom: 12px;
+  display: flex;
+  margin: 40px 40px 0 40px;
+`;
+
+const DivSocialMedia = styled.div`
+  display: flex;
   width: 100%;
-  height: 52px;
+  justify-content: center;
 `;
-
-export { DivInfo, DivAboutMe, BgBlack };
+export { DivInfo, DivAboutMe, SpanSocialMedia, DivSocialMedia };

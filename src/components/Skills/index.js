@@ -1,9 +1,10 @@
 import SkillsCard from '../../SkillsCard';
+import { Section } from '../Section/styles';
 import { DivIcons } from './styles';
 
 const Skills = () => {
   return (
-    <>
+    <Section>
       <h1>Habilidades</h1>
 
       <DivIcons>
@@ -13,7 +14,7 @@ const Skills = () => {
         <SkillsCard image="react.png" text="React" />
         <SkillsCard image="styled components.png" text="Styled Components" />
       </DivIcons>
-    </>
+    </Section>
   );
 };
 

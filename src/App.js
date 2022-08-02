@@ -5,21 +5,29 @@ import Header from './components/Header';
 import Projects from './components/Projects';
 import Skills from './components/Skills';
 import Summary from './components/Summary';
-import { BgBlack } from './components/Summary/styles';
 
 function App() {
   return (
-    <>
+    <div style={{ background: '#222222' }}>
       <Header />
 
-      <BgBlack />
       <Container>
         <Summary />
         <Skills />
         <Projects />
-        <Contact />
       </Container>
-    </>
+      <Contact />
+      <div
+        style={{
+          color: 'white',
+          padding: '12px',
+          background: '#222',
+          textAlign: 'center',
+        }}
+      >
+        <span>Todos os direitos reservados, © 2022 Letícia Luckow.</span>
+      </div>
+    </div>
   );
 }
 
