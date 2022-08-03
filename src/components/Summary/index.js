@@ -22,7 +22,7 @@ const Summary = () => {
             </a>
           </SpanSocialMedia>
           <SpanSocialMedia>
-            <a href="https://github.com/LeticiaLuckow" target="blank">
+            <a href="https://github.com/LeticiaLuckow">
               <Github width={30} color="white" />
             </a>
           </SpanSocialMedia>

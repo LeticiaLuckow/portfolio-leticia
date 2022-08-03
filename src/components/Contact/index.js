@@ -29,7 +29,8 @@ const Contact = () => {
             icon={<Mail width={50} style={{ marginRight: '8px' }} />}
             title="E-mail"
             subtitle="leticia.villasboas99@gmail.com"
-            link="leticia.villasboas99@gmail.com"
+            link="https://mail.google.com/mail/u/0/#inbox?compose=new"
+            target="blank"
           />
           <FooterBox
             icon={<LocationOn width={50} style={{ marginRight: '8px' }} />}

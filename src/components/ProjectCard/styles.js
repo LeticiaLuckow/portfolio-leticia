@@ -1,12 +1,15 @@
 import styled from 'styled-components';
 
 const ProjectCardDiv = styled.div`
-  width: 200px;
+  width: 300px;
   height: 300px;
-  border: 1px solid red;
+  border: 1px solid pink;
   background-size: cover;
 
   &:hover {
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+
     span {
       opacity: 100%;
       cursor: pointer;
@@ -15,7 +18,14 @@ const ProjectCardDiv = styled.div`
       opacity: 0.5;
     }
   }
+  cursor: pointer;
   position: relative;
+`;
+
+const ProjectDiv = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
 `;
 const BlackDiv = styled.div`
   background: black;
@@ -37,4 +47,4 @@ const SpanCard = styled.span`
   font-family: 'Uchen', serif;
 `;
 
-export { ProjectCardDiv, SpanCard, BlackDiv };
+export { ProjectCardDiv, ProjectDiv, SpanCard, BlackDiv };
