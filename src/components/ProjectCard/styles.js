@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 
 const ProjectCardDiv = styled.div`
-  width: 300px;
-  height: 300px;
+  width: 500px;
+  height: 500px;
   border: 1px solid pink;
   background-size: cover;
 
@@ -22,11 +22,6 @@ const ProjectCardDiv = styled.div`
   position: relative;
 `;
 
-const ProjectDiv = styled.div`
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-`;
 const BlackDiv = styled.div`
   background: black;
   opacity: 0;
@@ -47,4 +42,4 @@ const SpanCard = styled.span`
   font-family: 'Uchen', serif;
 `;
 
-export { ProjectCardDiv, ProjectDiv, SpanCard, BlackDiv };
+export { ProjectCardDiv, SpanCard, BlackDiv };

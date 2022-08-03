@@ -1,5 +1,5 @@
 import ProjectCard from '../ProjectCard';
-import { ProjectDiv } from '../ProjectCard/styles';
+import { ProjectDiv } from './styles';
 import { Section } from '../Section/styles';
 
 const Projects = () => {

@@ -1,22 +1,18 @@
-import { DivFlex, ImgName, ImgPerfil } from './styles';
+import { MenuDiv } from './styles';
+import { DivFlex, ImgName, SpanDiv } from './styles';
 
 const Header = () => {
   return (
-    <>
-      <DivFlex>
-        <ImgName src="/leticiav.png" />
-      </DivFlex>
+    <DivFlex>
+      <ImgName src="/leticiav.png" />
 
-      <div
-        style={{
-          display: 'flex',
-          justifyContent: 'center',
-          background: '#cfabb1',
-        }}
-      >
-        <ImgPerfil src="/leticia-banner.png" alt="Foto Pessoal" />
-      </div>
-    </>
+      <MenuDiv>
+        <SpanDiv>Sobre</SpanDiv>
+        <SpanDiv>Habilidades</SpanDiv>
+        <SpanDiv>Projetos</SpanDiv>
+        <SpanDiv>Contato</SpanDiv>
+      </MenuDiv>
+    </DivFlex>
   );
 };
 
