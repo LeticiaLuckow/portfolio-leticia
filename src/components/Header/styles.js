@@ -27,6 +27,10 @@ const SpanDiv = styled.span`
   display: flex;
   position: relative;
   font-family: 'Uchen', serif;
+  a {
+    text-decoration: none;
+    color: white;
+  }
 
   align-items: center;
   &:hover {

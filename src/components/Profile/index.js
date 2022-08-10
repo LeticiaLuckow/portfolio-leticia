@@ -9,7 +9,7 @@ const Profile = () => {
         background: '#cfabb1',
       }}
     >
-      <ImgPerfil src="/leticia-banner.png" alt="Foto Pessoal" />
+      <ImgPerfil src="/leticia-banner.png" alt="Foto Pessoal" id="top" />
     </div>
   );
 };

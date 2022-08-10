@@ -4,7 +4,7 @@ import { DivIcons } from './styles';
 
 const Skills = () => {
   return (
-    <Section>
+    <Section id="habilidades">
       <h1>Habilidades</h1>
 
       <DivIcons>

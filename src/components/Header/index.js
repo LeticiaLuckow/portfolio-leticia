@@ -7,10 +7,23 @@ const Header = () => {
       <ImgName src="/leticiav.png" />
 
       <MenuDiv>
-        <SpanDiv>Sobre</SpanDiv>
-        <SpanDiv>Habilidades</SpanDiv>
-        <SpanDiv>Projetos</SpanDiv>
-        <SpanDiv>Contato</SpanDiv>
+        <SpanDiv>
+          {' '}
+          <a href="#sobre">Sobre</a>
+        </SpanDiv>
+
+        <SpanDiv>
+          <a href="#habilidades">Habilidades </a>
+        </SpanDiv>
+
+        <SpanDiv>
+          {' '}
+          <a href="#projetos">Projetos</a>
+        </SpanDiv>
+
+        <SpanDiv>
+          <a href="#contato">Contato</a>
+        </SpanDiv>
       </MenuDiv>
     </DivFlex>
   );

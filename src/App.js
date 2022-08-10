@@ -6,6 +6,7 @@ import Profile from './components/Profile';
 import Projects from './components/Projects';
 import Skills from './components/Skills';
 import Summary from './components/Summary';
+import Top from './components/Top';
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
       >
         <span>Todos os direitos reservados, © 2022 Letícia Luckow.</span>
       </div>
+      <Top />
     </div>
   );
 }

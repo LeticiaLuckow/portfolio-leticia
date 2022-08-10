@@ -6,7 +6,7 @@ import { ContactDiv, DivInfo } from './styles';
 const Contact = () => {
   return (
     <ContactDiv>
-      <DivInfo>
+      <DivInfo id="contato">
         <h1
           style={{ textAlign: 'center', width: '100%', marginBottom: '60px' }}
         >

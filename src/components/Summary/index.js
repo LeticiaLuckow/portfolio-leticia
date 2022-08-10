@@ -4,8 +4,9 @@ import { Linkedin, Github } from '@styled-icons/bootstrap';
 
 const Summary = () => {
   return (
-    <DivInfo>
+    <DivInfo id="sobre">
       <h1 style={{ marginRight: '50px' }}>Sobre</h1>
+
       <DivAboutMe>
         <p>
           Meu nome é Letícia, sou formada em Administração pela Universidade

@@ -4,7 +4,7 @@ import { Section } from '../Section/styles';
 
 const Projects = () => {
   return (
-    <Section>
+    <Section id="projetos">
       <h1>Projetos</h1>
       <ProjectDiv>
         <ProjectCard image="/site-movie-lu.png" text="MovieLu" />
