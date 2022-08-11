@@ -8,6 +8,9 @@ const DivInfo = styled.div`
   align-items: center;
   justify-content: center;
   padding-top: 20px;
+  @media only screen and (max-width: 600px) {
+    flex-direction: column;
+  }
 `;
 
 const DivAboutMe = styled.div`

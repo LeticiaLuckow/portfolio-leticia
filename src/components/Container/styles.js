@@ -6,6 +6,7 @@ const ContainerDiv = styled.div`
   font-family: sans-serif;
   background: #222222;
   color: white;
+  box-sizing: border-box;
 `;
 
 export { ContainerDiv };

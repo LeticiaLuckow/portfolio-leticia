@@ -1,7 +1,7 @@
 import { Whatsapp } from '@styled-icons/bootstrap';
 import { LocationOn, Mail } from '@styled-icons/material-outlined';
 import FooterBox from '../FooterBox';
-import { ContactDiv, DivInfo } from './styles';
+import { ContactDiv, DivInfo, MediaContact } from './styles';
 
 const Contact = () => {
   return (
@@ -12,13 +12,7 @@ const Contact = () => {
         >
           Contato
         </h1>
-        <div
-          style={{
-            display: 'flex',
-            width: '100%',
-            justifyContent: 'space-around',
-          }}
-        >
+        <MediaContact>
           <FooterBox
             icon={<Whatsapp width={50} style={{ marginRight: '8px' }} />}
             title="Whatsapp"
@@ -37,7 +31,7 @@ const Contact = () => {
             title="Localização"
             subtitle="Curitiba-PR"
           />
-        </div>
+        </MediaContact>
       </DivInfo>
     </ContactDiv>
   );

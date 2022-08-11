@@ -10,7 +10,7 @@ const ProjectCardDiv = styled.div`
     -webkit-transform: scale(1.05);
     transform: scale(1.05);
 
-    span {
+    div {
       opacity: 100%;
       cursor: pointer;
     }
@@ -20,6 +20,12 @@ const ProjectCardDiv = styled.div`
   }
   cursor: pointer;
   position: relative;
+  
+  }
+  @media only screen and (max-width: 600px) {
+    width: 300px;
+    height: 300px;
+  }
 `;
 
 const BlackDiv = styled.div`
@@ -30,7 +36,7 @@ const BlackDiv = styled.div`
   transition: opacity 0.5s ease-in-out;
   position: relative;
 `;
-const SpanCard = styled.span`
+const SpanCard = styled.div`
   opacity: 0;
   transition: opacity 0.5s ease-in-out;
   color: white;
@@ -38,6 +44,8 @@ const SpanCard = styled.span`
   top: 50%;
   text-align: center;
   width: 100%;
+  display: flex;
+  flex-direction: column;
 
   font-family: 'Uchen', serif;
 `;
