@@ -9,27 +9,27 @@ const Projects = () => {
       <ProjectDiv>
         <ProjectCard
           link="https://github.com/LeticiaLuckow/catalogo-filmes"
-          image="/site-movie-lu.png"
+          image="/assets/site-movie-lu.png"
           text="MovieLu"
         />
         <ProjectCard
           link="https://github.com/LeticiaLuckow/Projeto-Landing-Page"
-          image="/landing-page.png"
+          image="/assets/landing-page.png"
           text="Landing Page"
         />
         <ProjectCard
           link="https://github.com/LeticiaLuckow/Projeto-PicPro"
-          image="/projeto-picpro.png"
+          image="/assets/projeto-picpro.png"
           text="Projeto PicPro"
         />
         <ProjectCard
           link="https://github.com/LeticiaLuckow/to-do-list"
-          image="/to-do-list.png"
+          image="/assets/to-do-list.png"
           text="Lista de Atividades"
         />
         <ProjectCard
           link="https://github.com/LeticiaLuckow/to-do-list"
-          image="/projeto-infusion.png"
+          image="/assets/projeto-infusion.png"
           text="Projeto Infusion"
         />
       </ProjectDiv>
