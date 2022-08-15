@@ -5,7 +5,7 @@ import { Section } from '../Section/styles';
 const Projects = () => {
   return (
     <Section id="projetos">
-      <h1>Projetos</h1>
+      <h1>Projetoss</h1>
       <ProjectDiv>
         <ProjectCard
           link="https://github.com/LeticiaLuckow/catalogo-filmes"
