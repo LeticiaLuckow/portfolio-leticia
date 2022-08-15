@@ -7,7 +7,7 @@ const ProjectCard = ({ image, text, link }) => {
       <BlackDiv id="black-div" />
       <SpanCard>
         {text}
-        <a href={link}>
+        <a href={link} target="_blank" rel="noreferrer">
           <Github width={30} color="white" />
         </a>
       </SpanCard>

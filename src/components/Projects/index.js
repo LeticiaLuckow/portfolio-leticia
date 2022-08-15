@@ -28,7 +28,7 @@ const Projects = () => {
           text="Lista de Atividades"
         />
         <ProjectCard
-          link="https://github.com/LeticiaLuckow/to-do-list"
+          link="https://github.com/LeticiaLuckow/Projeto-Infusion"
           image="/assets/projeto-infusion.png"
           text="Projeto Infusion"
         />
