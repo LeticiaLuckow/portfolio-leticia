@@ -1,13 +1,13 @@
 import { Github } from '@styled-icons/bootstrap';
 import { BlackDiv, ProjectCardDiv, SpanCard } from './styles';
 
-const ProjectCard = ({ image, text }) => {
+const ProjectCard = ({ image, text, link }) => {
   return (
     <ProjectCardDiv style={{ backgroundImage: `url("${image}")` }}>
       <BlackDiv id="black-div" />
       <SpanCard>
         {text}
-        <a href="https://github.com/LeticiaLuckow">
+        <a href={link}>
           <Github width={30} color="white" />
         </a>
       </SpanCard>
