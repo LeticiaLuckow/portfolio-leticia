@@ -5,12 +5,25 @@ import { Section } from '../Section/styles';
 const Projects = () => {
   return (
     <Section id="projetos">
-      <h1>Projetoss</h1>
+      <h1>Projetos</h1>
       <ProjectDiv>
         <ProjectCard
+          link="https://github.com/LeticiaLuckow/glossario-react"
+          linkProjeto="https://glossario-react.vercel.app/"
+          image="/assets/glossario-react.png"
+          text="Glossário"
+        />
+        <ProjectCard
           link="https://github.com/LeticiaLuckow/catalogo-filmes"
+          linkProjeto="https://catalogo-filmes-blue.vercel.app/"
           image="/assets/site-movie-lu.png"
           text="MovieLu"
+        />
+        <ProjectCard
+          link="https://github.com/LeticiaLuckow/to-do-list"
+          linkProjeto="https://to-do-list-mu-three.vercel.app/"
+          image="/assets/to-do-list.png"
+          text="Lista de Atividades"
         />
         <ProjectCard
           link="https://github.com/LeticiaLuckow/Projeto-Landing-Page"
@@ -22,11 +35,7 @@ const Projects = () => {
           image="/assets/projeto-picpro.png"
           text="Projeto PicPro"
         />
-        <ProjectCard
-          link="https://github.com/LeticiaLuckow/to-do-list"
-          image="/assets/to-do-list.png"
-          text="Lista de Atividades"
-        />
+
         <ProjectCard
           link="https://github.com/LeticiaLuckow/Projeto-Infusion"
           image="/assets/projeto-infusion.png"

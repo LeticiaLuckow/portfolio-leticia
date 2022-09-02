@@ -50,4 +50,9 @@ const SpanCard = styled.div`
   font-family: 'Uchen', serif;
 `;
 
-export { ProjectCardDiv, SpanCard, BlackDiv };
+const DivLinks = styled.div`
+  display: flex;
+  justify-content: center;
+`;
+
+export { ProjectCardDiv, SpanCard, BlackDiv, DivLinks };
