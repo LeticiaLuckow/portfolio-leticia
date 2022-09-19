@@ -16,7 +16,7 @@ const Summary = () => {
         <DivSocialMedia>
           <SpanSocialMedia>
             <a
-              href="https://www.linkedin.com/in/let%C3%ADcia-luckow-355b64168/"
+              href="https://www.linkedin.com/in/leticia-luckow/"
               target="blank"
             >
               <Linkedin width={30} color="#097dea" />
