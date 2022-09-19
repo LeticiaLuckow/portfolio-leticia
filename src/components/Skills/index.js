@@ -11,7 +11,9 @@ const Skills = () => {
         <SkillsCard image="html.png" text="HTML" />
         <SkillsCard image="css.png" text="CSS" />
         <SkillsCard image="javascript.png" text="JavaScript" />
+        <SkillsCard image="typescript.png" text="Typescript" />
         <SkillsCard image="react.png" text="React" />
+        <SkillsCard image="nextjs.png" text="Next.Js" />
         <SkillsCard image="styled components.png" text="Styled Components" />
       </DivIcons>
     </Section>

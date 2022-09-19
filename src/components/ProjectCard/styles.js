@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 
 const ProjectCardDiv = styled.div`
-  width: 500px;
-  height: 500px;
+  width: 400px;
+  height: 400px;
   border: 1px solid pink;
   background-size: cover;
 
