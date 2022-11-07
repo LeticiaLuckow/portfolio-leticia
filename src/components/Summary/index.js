@@ -9,9 +9,10 @@ const Summary = () => {
 
       <DivAboutMe>
         <p>
-          Meu nome é Letícia, sou formada em Administração pela Universidade
-          Positivo mas atualmente estudo programação para ingressar nessa área
-          como desenvolvedora Front-End Junior.
+          Realizei uma transição de carreira e hoje atuo como Desenvolvedora
+          Frontend JR, com conhecimento no desenvolvimento de aplicações Web
+          utilizando tecnologias como HTML5, CSS3, Javascript, React, entre
+          outros...
         </p>
         <DivSocialMedia>
           <SpanSocialMedia>

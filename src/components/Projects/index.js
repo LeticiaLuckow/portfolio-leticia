@@ -8,6 +8,12 @@ const Projects = () => {
       <h1>Projetos</h1>
       <ProjectDiv>
         <ProjectCard
+          image="/assets/o-cha-la.png"
+          text="O chá lá (em desenvolvimento)"
+          link="https://github.com/LeticiaLuckow/o-cha-la"
+        />
+
+        <ProjectCard
           link="https://github.com/LeticiaLuckow/Blog"
           linkProjeto="https://lvblog-leticialuckow.vercel.app/"
           image="/assets/blog.png"
